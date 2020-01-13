@@ -1,4 +1,4 @@
-# Automation-Testing-of-ECommerce-WebsiteUsingSelenium
+# Automation-Testing-of-ECommerce-WebsiteUsingGradleSeleniumFramework
 - Java
 - Gradle
 - TestNG
