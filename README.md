@@ -1,14 +1,15 @@
 # Automation-Testing-of-ECommerce-WebsiteUsingSelenium
 - Java
-- Maven
+- Gradle
 - TestNG
 - BDD
 - DDT 
-- POM (Page Object Model)
+- build Gradle
 - Selenium Grid
 - Sauce Labs
 - Zalenium 
 - Docker
+- Allure Test Report
 # Integrated Development Environment 
 - Eclipse IDEA
 - IntelliJ IDEA
