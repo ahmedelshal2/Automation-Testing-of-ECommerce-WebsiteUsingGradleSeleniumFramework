@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegisteredUserCheckoutProduct" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-01-13T17:08:24" hostname="DESKTOP-TD6L0N5" time="53.469">
+  <properties/>
+  <testcase name="UserCanRegisterSuccessfully" classname="tests.RegisteredUserCheckoutProduct" time="6.417"/>
+  <testcase name="UserCanSearchWithAutoSuggest" classname="tests.RegisteredUserCheckoutProduct" time="12.374"/>
+  <testcase name="addQunatity" classname="tests.RegisteredUserCheckoutProduct" time="7.061"/>
+  <testcase name="UserCanCheckoutProduct" classname="tests.RegisteredUserCheckoutProduct" time="24.528"/>
+  <testcase name="RegisteredUserCanLogout" classname="tests.RegisteredUserCheckoutProduct" time="2.809"/>
+  <system-out><![CDATA[No features found at [classpath:tests]
+https://demo.nopcommerce.com/
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

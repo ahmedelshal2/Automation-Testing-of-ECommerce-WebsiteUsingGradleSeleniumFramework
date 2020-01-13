@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+}
+
+group 'SeleniumFramwork'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+test {
+    useTestNG()
+                    {
+                        useDefaultListeners=true
+                        suites 'src/test/resources/testng.xml'
+                    }
+        }
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-java
+    compile group: 'info.cukes', name: 'cucumber-java', version: '1.2.5'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-core
+    compile group: 'info.cukes', name: 'cucumber-core', version: '1.2.5'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-testng
+    compile group: 'info.cukes', name: 'cucumber-testng', version: '1.2.5'
+    // https://mvnrepository.com/artifact/io.cucumber/gherkin
+    compile group: 'io.cucumber', name: 'gherkin', version: '9.0.0'
+    // https://mvnrepository.com/artifact/com.opencsv/opencsv
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.0'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.1'
+    // https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver
+    compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.4.4'
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.1'
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.1'
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+
+
+
+
+
+
+
+
+
+
+
+
+}

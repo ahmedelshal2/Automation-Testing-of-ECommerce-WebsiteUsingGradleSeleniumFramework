@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopcommerce Regression Suite" duration-ms="54264" started-at="2020-01-13T17:08:23Z" finished-at="2020-01-13T17:09:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression Test" duration-ms="54264" started-at="2020-01-13T17:08:23Z" finished-at="2020-01-13T17:09:18Z">
+      <class name="tests.RegisteredUserCheckoutProduct">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="startDriver" is-config="true" duration-ms="32372" started-at="2020-01-13T17:07:51Z" finished-at="2020-01-13T17:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="setUpClass" is-config="true" duration-ms="650" started-at="2020-01-13T17:08:24Z" finished-at="2020-01-13T17:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="UserCanRegisterSuccessfully" duration-ms="6417" started-at="2020-01-13T17:08:24Z" finished-at="2020-01-13T17:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-01-13T17:08:31Z" finished-at="2020-01-13T17:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=RegisteredUserCheckoutProduct.UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisteredUserCheckoutProduct@2b199499] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="UserCanSearchWithAutoSuggest()[pri:2, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="UserCanSearchWithAutoSuggest" duration-ms="12374" started-at="2020-01-13T17:08:31Z" finished-at="2020-01-13T17:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutoSuggest -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-01-13T17:08:43Z" finished-at="2020-01-13T17:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchWithAutoSuggest status=SUCCESS method=RegisteredUserCheckoutProduct.UserCanSearchWithAutoSuggest()[pri:2, instance:tests.RegisteredUserCheckoutProduct@2b199499] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="addQunatity()[pri:3, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="addQunatity" duration-ms="7061" started-at="2020-01-13T17:08:43Z" finished-at="2020-01-13T17:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQunatity -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="screenshotOnFailure" is-config="true" duration-ms="5" started-at="2020-01-13T17:08:50Z" finished-at="2020-01-13T17:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addQunatity status=SUCCESS method=RegisteredUserCheckoutProduct.addQunatity()[pri:3, instance:tests.RegisteredUserCheckoutProduct@2b199499] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="UserCanCheckoutProduct()[pri:4, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="UserCanCheckoutProduct" duration-ms="24528" started-at="2020-01-13T17:08:50Z" finished-at="2020-01-13T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanCheckoutProduct -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="screenshotOnFailure" is-config="true" duration-ms="5" started-at="2020-01-13T17:09:15Z" finished-at="2020-01-13T17:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanCheckoutProduct status=SUCCESS method=RegisteredUserCheckoutProduct.UserCanCheckoutProduct()[pri:4, instance:tests.RegisteredUserCheckoutProduct@2b199499] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="RegisteredUserCanLogout()[pri:5, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="RegisteredUserCanLogout" duration-ms="2809" started-at="2020-01-13T17:09:15Z" finished-at="2020-01-13T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-01-13T17:09:18Z" finished-at="2020-01-13T17:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=RegisteredUserCheckoutProduct.RegisteredUserCanLogout()[pri:5, instance:tests.RegisteredUserCheckoutProduct@2b199499] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2020-01-13T17:09:18Z" finished-at="2020-01-13T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.RegisteredUserCheckoutProduct@2b199499]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-01-13T17:09:18Z" finished-at="2020-01-13T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.RegisteredUserCheckoutProduct -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce Regression Suite -->
+</testng-results>
